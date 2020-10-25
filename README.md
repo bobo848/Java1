@@ -1,7 +1,7 @@
 # Java1
 # 计192刘利波2019311290
 # 实验一 PC机模拟系统
-# 一、实验目的
+## 一、实验目的
 1.熟悉java项目构成  
 2.熟悉并练习java项目建包，源程序编写  
 3.练习建立java源程序的类，练习属性及方法的编写  
@@ -10,7 +10,7 @@
 6.思考并实现源程序对其他private属性的调用  
 7.练习调试java程序，加深对java语法的理解  
 8.加深对java面向对象编程的理解  
-# 二、实验过程
+## 二、实验过程
 ### 实验实现内容：
 用类描述计算机中CPU的速度和硬盘的容量。要求Java应用程序有4个类，名字分别是PC、CPU、HardDisk和Test，其中Test是主类
 ### 具体步骤：
@@ -31,7 +31,7 @@
 （4） pc调用setCPU(CPU c)方法，调用时实参是cpu；   
 （5） pc调用setHardDisk(HardDisk h)方法，调用时实参是disk；  
 （6） pc调用show()方法；  
-# 三、核心方法
+## 三、核心方法
 （1）cpu  
 public void setSpeed(int m) {  
 	if(m>1000 && m<3000)  
@@ -73,9 +73,9 @@ public class Test {
     }  
 
 }  
-# 四、实验结果
-## ![实验结果截图](https://github.com/bobo848/Java1/blob/main/%E5%AE%9E%E9%AA%8C2%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C%E6%88%AA%E5%9B%BE.JPG)
-# 实验感想
+## 四、实验结果
+### ![实验结果](https://github.com/bobo848/Java1/blob/main/%E5%AE%9E%E9%AA%8C2%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C%E6%88%AA%E5%9B%BE.JPG)
+## 五、实验感想
 通过本次实验，我第一次系统的编写了java源程序并放在项目于包中使其正常运行。熟悉并练习了类及属性与方法的编写，不同构造方法的编写，属性的访问权限的设置及其合理调用。
 练习了程序的查错调试。加深了对java面向对象编程的理解。
  
